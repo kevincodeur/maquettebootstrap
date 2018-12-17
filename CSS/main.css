@@ -1,0 +1,147 @@
+
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('HelveticaNeueLTStd-MdCn.woff2') format('woff2'),
+        url('HelveticaNeueLTStd-MdCn.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('HelveticaNeueLTStd-ThCn.woff2') format('woff2'),
+        url('HelveticaNeueLTStd-ThCn.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;}
+
+.background1 {background-image: url(../IMAGE/background.png)}
+.background2 {background-image: url(../IMAGE/background-header-logo.png)}
+
+
+.color1 {color: #4b5a65;}
+.color2 {color: #a4a4a4;}
+.color3 {color: white;}
+.color4 {color: #cccece;}
+.color5 {color: #3c92d0;}
+.color6 {color: #888888;}
+
+
+.width100 {width: 1920px;}
+
+.paddingtop5 {padding-top: 5px;}
+.paddingtop10 {padding-top: 10px;}
+.paddingtop15 {padding-top: 15px;}
+.paddingtop20 {padding-top: 20px;}
+.paddingtop25 {padding-top: 25px;}
+.paddingtop30 {padding-top:30px;}
+.paddingtop35 {padding-top: 35px;}
+.paddingtop40 {padding-top: 40px;}
+.paddingtop50 {padding-top:50px;}
+.paddingtop75 {padding-top:75px;}
+.paddingtop100 {padding-top:100px;}
+.paddingbottom30 {padding-bottom:30px;}
+.paddingbottom10 {padding-bottom:10px;}
+.padding20 {padding: 20px;}
+.margin5 {margin: 5px;}
+.margin10 {margin: 10px;}
+.marginright10 {margin-right: 10px;}
+
+.txtcenter {text-align: center;}
+
+.font1 {font-size: 20px; }
+.font11 {font-size: 11px;}
+.font13 {font-size: 13px;}
+.font15 {font-size: 15px;}
+.font16 {font-size: 15.5px;}
+.font48 {font-size: 48px;}
+.police1 {font-family : Helvetica;}
+
+
+.borderbottom1 {border-bottom: 1px solid white;}
+.borderbottom2 {border-bottom: 1px solid #c3c3c3;}
+.bordertop2 {border-top: 1px solid #dde2e2;}
+
+.bouton {background-image: linear-gradient(#439ed5, #378acd);
+        border-top-color: #8ECEED;
+        border-right-color: #57B3CF;
+        border-bottom-color: rgb(78, 153, 196);
+        border-left-color: #57B3CF;
+        border-width: 1px;
+        border-style: solid;
+        -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.36);
+        -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.36);
+        box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.36);
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        ;}
+
+.bouton:hover {
+    background-image: linear-gradient(#0066a5, #004883);
+    border-top-color: rgb(81, 182, 233);
+    border-right-color: rgb(19, 163, 207);
+    border-bottom-color: rgb(15, 122, 184);
+    border-left-color: rgb(19, 163, 207);
+    border-width: 1px;
+    border-style: solid;}
+
+.bouton2 {background-image: linear-gradient(#439ed5, #378acd);
+        border-top-color: #8ECEED;
+        border-right-color: #57B3CF;
+        border-bottom-color: rgb(78, 153, 196);
+        border-left-color: #57B3CF;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        ;}
+
+.bouton2:hover {background-image: linear-gradient(#0066a5, #004883);
+    border-top-color: rgb(81, 182, 233);
+    border-right-color: rgb(19, 163, 207);
+    border-bottom-color: rgb(15, 122, 184);
+    border-left-color: rgb(19, 163, 207);
+    border-width: 2px;
+    border-style: solid;}
+
+
+.boutonnav {background-color: transparent;
+        border-style: none;
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        ;}
+
+.boutonnav:hover {background-image: linear-gradient(#384249, #45515b);
+    border-top-color: #272e33;
+    border-right-color: #374047;
+    border-bottom-color: #68747e;
+    border-left-color: #374047;
+    border-width: 1px;
+    border-style: solid;}
+
+a.txtnone:link {text-decoration: none;}
+
+@media (max-width: 575px){
+.logoheader {display: none;}
+}
+
+@media (min-width: 576px) and (max-width:767px){
+.pbbouton {padding-bottom: 30px;}
+
+}
+
+@media (max-width: 990px){
+.pt50main {padding-top: 50px;}
+.padimgmain {padding-bottom: 40px;}
+.paddingtoptel {padding-top: 30px;}
+.paddingtopmain {padding-top: 20px;}
+.paddingtop100 { padding-top: 20px;}}
+
+.transition {transition: all 0.5s ease;}
